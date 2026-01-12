@@ -11,7 +11,7 @@ Tauri leverages the builtin Webview2 browser on Windows which allows for a small
 
 **Steps:**
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/devorous/flockmod-tauri.git
 cd flocktauri
 npm install
 
