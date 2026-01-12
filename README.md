@@ -12,7 +12,7 @@ Tauri leverages the builtin Webview2 browser on Windows which allows for a small
 **Steps:**
 ```bash
 git clone https://github.com/devorous/flockmod-tauri.git
-cd flocktauri
+cd flockmod-tauri
 npm install
 
 # Development
