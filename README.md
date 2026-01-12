@@ -1,7 +1,25 @@
-# Tauri + Vanilla
+## Flockmod app with Tauri
+This application uses Tauri to wrap Flockmod.com/draw/ in a minimal native shell.
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
+Tauri leverages the builtin Webview2 browser on Windows which allows for a small executable size as well as great performance.
 
-## Recommended IDE Setup
+## Building from Source
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+**Prerequisites:**
+- [Rust](https://www.rust-lang.org/)
+- [Node.js](https://nodejs.org/)
+
+**Steps:**
+```bash
+git clone [your-repo-url]
+cd flocktauri
+npm install
+
+# Development
+npm run tauri dev
+
+# Production build
+npm run tauri build
+```
+
+---
