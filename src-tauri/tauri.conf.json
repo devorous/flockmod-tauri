@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
   "productName": "Flockmod",
-  "version": "0.1.0",
-  "identifier": "com.kyle.flockmod",
+  "version": "1.0.0",
+  "identifier": "com.flock.mod",
   "build": {
     "devUrl": "https://flockmod.com/draw/",
     "frontendDist": "https://flockmod.com/draw/"
@@ -11,7 +11,7 @@
     "withGlobalTauri": false,
     "windows": [
       {
-        "title": "Flockmod Draw",
+        "title": "Flockmod",
         "width": 1280,
         "height": 800,
         "minWidth": 800,
